@@ -1,0 +1,10 @@
+*** Settings ***
+Library       BuiltIn
+
+*** Variables ***
+${MESSAGE}    Hello, world!
+
+*** Test Cases ***
+My test
+    [documentation]  Message: Hello world!
+    log  Hello, world!
